@@ -1,0 +1,39 @@
+body{
+    background-color: #f7f7f7;
+}
+h1{
+    text-align: center;
+}
+.app{
+    display: flex;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+.root{
+    background-color:#fff;
+    border-top:1px solid #ddd;
+    border-left:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    flex: 1;
+    vertical-align: top;
+    padding:40px 20px;
+}
+
+.code{
+    flex: 1;
+    border:1px solid #ddd;
+    background-color:#fff;
+    overflow-y: scroll;
+    padding-left: 20px;
+    height: 100%;
+}
+
+.root:hover, .code:hover{
+    border:1px solid #ccc;
+    cursor: pointer;
+}
+
+svg{
+    color:#fff
+}
