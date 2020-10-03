@@ -20,7 +20,7 @@ const data = new Array(60).fill().map((e,i) => {
 });
 
 document.getElementById('code__data').textContent = JSON.stringify(data, undefined, 2);
-console.log(data);
+
 
   // Add X axis
   var x = d3.scaleLinear()
