@@ -1,8 +1,8 @@
 let DATA = [
-  {id:1,value:10,name:"Kaz", isVisible:'true'},
-  {id:2,value:5,name:"Rus", isVisible:'true'},
-  {id:3,value:3,name:"Kyr", isVisible:'true'},
-  {id:4,value:1,name:"Ukr", isVisible:'true'}
+  {id:1,value:10,name:"Kaz", isVisible:true},
+  {id:2,value:5,name:"Rus", isVisible:true},
+  {id:3,value:3,name:"Kyr", isVisible:true},
+  {id:4,value:1,name:"Ukr", isVisible:true}
 ]
 
 const listItems = d3.select('ul')
