@@ -14,7 +14,7 @@ function readTextFile(file) {
   rawFile.send(null);
 }
 
-readTextFile("http://parlament/parlamentsWithParty.json");
+readTextFile(window.location.origin + "/parlamentsWithParty.json");
 
 const width = 1440;
 const height = 1536;
